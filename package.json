@@ -1,0 +1,26 @@
+{
+  "name": "astrostar_podcast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:rss": "ts-node build-rss.ts",
+    "publish": "ts-node publish-rss.ts",
+    "deploy": "npm run build:rss && npm run publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "dayjs": "^1.11.18",
+    "dotenv": "^17.2.2",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

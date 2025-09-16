@@ -1,0 +1,12 @@
+ffmpeg -i /Users/roatanea/Desktop/Aries_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Aries_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Aquarius_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Aquarius_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Taurus_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Taurus_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Pisces_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Pisces_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Gemini_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Gemini_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Cancer_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Cancer_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Leo_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Leo_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Virgo_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Virgo_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Libra_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Libra_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Sagittarius_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Sagittarius_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Capricorn_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Capricorn_2025.mp3
+ffmpeg -i /Users/roatanea/Desktop/Scorpio_2025.mp4 -ac 1 -ar 44100 -b:a 160k -codec:a libmp3lame -id3v2_version 3 -write_id3v1 1 Scorpio_2025.mp3

@@ -1,0 +1,8 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 DATE_RANGE="2025-09-16_to_2025-09-22"; cd /Users/roatanea/Desktop/AstroStar_Podcast/WeeklyAudio && for f in *.mp4; do [ -f "$f" ] || continue; base="$\{f%.mp4\}"; if [[ "$base" != *"_$\{DATE_RANGE\}" ]]; then cleaned="$\{base%_\}"; mv -- "$f" "$\{cleaned\}_$\{DATE_RANGE\}.mp4"; f="$\{cleaned\}_$\{DATE_RANGE\}.mp4"; fi; done && mkdir -p WeeklyMP3 && for f in *"_$\{DATE_RANGE\}.mp4"; do [ -f "$f" ] || continue; base="$\{f%.mp4\}"; ffmpeg -hide_banner -nostdin -y -i "$f" -ac 1 -ar 44100 -b:a 160k -c:a libmp3lame -id3v2_version 3 -write_id3v1 1 "WeeklyMP3/$\{base\}.mp3"; done}
