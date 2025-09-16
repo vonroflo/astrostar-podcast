@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroStar Podcast - Weekly Astrology Readings</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .week-info {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            display: inline-block;
+        }
+        
+        .zodiac-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .zodiac-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .zodiac-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .zodiac-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .audio-player {
+            width: 100%;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .download-btn:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .zodiac-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌟 AstroStar Podcast</h1>
+            <p class="subtitle">Weekly Astrology Readings for Your Journey</p>
+            <div class="week-info">
+                <strong>Week of September 16-22, 2025</strong>
+            </div>
+        </header>
+        
+        <div class="zodiac-grid">
+            <div class="zodiac-card">
+                <div class="zodiac-name">♈ Aries</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Aries_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Aries_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♉ Taurus</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Taurus_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Taurus_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♊ Gemini</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Gemini_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Gemini_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♋ Cancer</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Cancer_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Cancer_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♌ Leo</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Leo_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Leo_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♍ Virgo</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Virgo_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Virgo_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♎ Libra</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Libra_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Libra_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♏ Scorpio</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Scorpio_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Scorpio_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♐ Sagittarius</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Sagittarius_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Sagittarius_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♑ Capricorn</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Capricorn_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Capricorn_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♒ Aquarius</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Aquarius_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Aquarius_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+            
+            <div class="zodiac-card">
+                <div class="zodiac-name">♓ Pisces</div>
+                <audio controls class="audio-player">
+                    <source src="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Pisces_2025-09-16_to_2025-09-22.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <a href="WeeklyMP3/ASI_Weekly_2025-09-16_to_2025-09-22_Pisces_2025-09-16_to_2025-09-22.mp3" class="download-btn" download>Download</a>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>🌟 AstroStar Podcast - Guiding you through the cosmos, one week at a time</p>
+        </footer>
+    </div>
+</body>
+</html>
